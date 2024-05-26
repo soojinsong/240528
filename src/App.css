@@ -1,0 +1,139 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+
+.menubox {
+  background-color: black;
+  padding: 10px;
+
+}
+
+
+ul{
+  list-style-type: none;
+}
+
+.todosbox{
+  padding: 20px;
+  border: 7px solid rgb(179, 238, 228);
+  border-radius: 10px;
+}
+
+.todobox{
+  background-color: rgb(255, 244, 179);
+  border: 2px solid rgb(255, 128, 43);
+  border-radius: 10px;
+  padding: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin: 15px;
+}
+
+.nowmember{
+  background-color: rgba(0,0,0,0);
+  margin-left: 30px;
+  color: black;
+  &.active{
+    color: red;
+  }
+}
+
+.membersbox{
+  border: 7px solid rgb(176, 49, 201);
+  background-color: rgb(158, 76, 239);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.memberbox{
+  
+  background-color: rgb(248, 240, 255);
+  border: 4px solid rgb(120, 19, 220);
+  border-radius: 10px;
+  padding: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin: 15px;
+  text-align: center;
+}
+
+.detailbox{
+  background-color:rgb(248, 240, 255); 
+  border: 2px solid rgb(231, 207, 251);
+  border-radius: 7px;
+  margin-top: 10px;
+  padding: 1px;
+  padding-bottom:20px;
+}
+
+.maintitle{
+  background-color: rgb(255, 223, 234);
+  border: 1px solid  rgb(240, 201, 215);
+  border-radius: 50px;
+  padding: 20px;
+  margin-top: 5px;
+}
+
+.mainbox{
+  border: 3px solid rgb(255, 215, 229); 
+  border-radius: 5px;
+  padding: 10px;
+  margin-top: 0px;
+}
+
+hr{
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.reacttitle{
+  color: white;
+  background-color: rgb(123, 217, 245);
+  margin-top: 5px;
+}
+
+.top{
+  background-color: rgb(236, 236, 236);
+  padding: 10px;
+  padding-top: 20px;
+}
